@@ -3,19 +3,19 @@
 
 name = "Hugo Overflow Identity"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
-description = ""
-homepage = "http://example.com/"
-tags = []
+licenselink = "https://github.com/setu4993/hugo-overflow-identity/blob/main/LICENSE"
+description = "A mashup of two HTML5UP themes that I use for my personal website, migrated to a Hugo theme."
+homepage = "https://github.com/setu4993/hugo-overflow-identity"
+tags = ["personal", "portfolio", "minimal"]
 features = []
 min_version = "0.41.0"
 
 [author]
-  name = ""
-  homepage = ""
+  name = "Setu Shah"
+  homepage = "https://setu.me"
 
 # If porting an existing theme
 [original]
-  name = ""
-  homepage = ""
-  repo = ""
+  name = "Overflow Identity"
+  homepage = "https://github.com/setu4993/overflow-identity"
+  repo = "https://github.com/setu4993/overflow-identity"
