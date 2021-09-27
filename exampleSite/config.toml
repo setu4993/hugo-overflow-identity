@@ -19,30 +19,30 @@ theme = "hugo-overflow-identity"
 
     [[params.footer.social]]
         link = "mailto:email@domain.com"
-        icon = "fa-envelope-o"
+        icon = "far fa-envelope"
         name = "Email"
 
-    # [[params.footer.social]]
-    #     link="https://www.github.com/"
-    #     icon="fa-github"
-    #     name="GitHub"
+    [[params.footer.social]]
+        link="https://www.github.com/"
+        icon="fab fa-github"
+        name="GitHub"
 
     [[params.footer.social]]
         link="https://twitter.com/"
-        icon="fa-twitter"
+        icon="fab fa-twitter"
         name="Twitter"
 
-    # [[params.footer.social]]
-    #     link="https://www.linkedin.com/"
-    #     icon="fa-linkedin"
-    #     name="LinkedIn"
+    [[params.footer.social]]
+        link="https://www.linkedin.com/"
+        icon="fab fa-linkedin"
+        name="LinkedIn"
 
-    # [[params.footer.social]]
-    #     link="https://facebook.com/"
-    #     icon="fa-facebook"
-    #     name="Facebook"
+    [[params.footer.social]]
+        link="https://facebook.com/"
+        icon="fab fa-facebook"
+        name="Facebook"
 
-    # [[params.footer.social]]
-    #     link="https://instagram.com/"
-    #     icon="fa-instagram"
-    #     name="Instagram"
+    [[params.footer.social]]
+        link="https://instagram.com/"
+        icon="fab fa-instagram"
+        name="Instagram"
