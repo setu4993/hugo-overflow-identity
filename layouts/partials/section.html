@@ -1,0 +1,10 @@
+<article class="container box style3">
+    <a name="{{ .Params.anchor }}"></a>
+        <header>
+            <h2>{{ .Page.Title }}</h2>
+            <p>{{ with .Params.subheading }} {{ . }} {{ end }}</p>
+        </header>
+
+    {{ .Page.Content }}
+
+</article>

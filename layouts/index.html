@@ -6,6 +6,10 @@
   <body>
     <!-- Header -->
     {{ partial "header.html" . }}
+    <!-- Pages -->
+    {{ range $.Site.RegularPages }}
+        {{ partial "section.html" . }}
+    {{ end }}
     <!-- Welcome -->
     <article class="container box style3">
       <a name="summary"></a>
