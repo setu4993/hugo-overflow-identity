@@ -108,11 +108,6 @@ body {
   line-height: 1;
 }
 
-ol,
-ul {
-  list-style: none;
-}
-
 blockquote,
 q {
   quotes: none;
@@ -446,17 +441,17 @@ article:last-child {
 
 /* List */
 
-ul.default {
+ul {
   list-style: disc;
   padding-left: 1em;
 }
 
-ul.default li {
+ul li {
   padding-left: 1.5em;
   margin-top: 1.5em;
 }
 
-ul.default li:first-child {
+ul li:first-child {
   margin-top: 0;
 }
 
@@ -465,6 +460,8 @@ ul.icons {
 }
 
 ul.icons li {
+  padding-left: 0em;
+  margin-top: 0em;
   display: inline-block;
 }
 
@@ -508,12 +505,13 @@ ul.actions li:first-child {
   margin-left: 0;
 }
 
-ol.default {
+ol {
+  margin-bottom: 1em;
   list-style: decimal;
   padding-left: 1.25em;
 }
 
-ol.default li {
+ol li {
   padding-left: 1.25em;
   margin-top: 1.5em;
 }
@@ -919,7 +917,7 @@ img.avatar {
 
   /* List */
 
-  ul.default li {
+  ul li {
     padding-left: 0.5em;
   }
 
@@ -949,7 +947,7 @@ img.avatar {
     margin-top: 0;
   }
 
-  ol.default li {
+  ol li {
     padding-left: 0.25em;
   }
 
