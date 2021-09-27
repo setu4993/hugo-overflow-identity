@@ -5,5 +5,5 @@
 <meta name="description" content="{{ with .Site.Params.description }} {{ . }} {{ end }}">
 <meta name="author" content="{{ with .Site.Params.authorName }} {{ . }} {{ end }}">
 
-<link rel="icon" type="image/png" href="{{ .Site.BaseURL }}images/favicon.png" />
-<link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css" />
+<link rel="icon" type="image/png" href="{{ "images/favicon.png" | absURL }}" />
+<link rel="stylesheet" href="{{ "css/main.css" | absURL }}" />
