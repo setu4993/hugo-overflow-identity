@@ -1,1 +1,5 @@
+# Minified CSS.
 *.min.css
+
+# Index layout.
+layouts/index.html
