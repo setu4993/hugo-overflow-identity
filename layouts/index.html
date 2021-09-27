@@ -7,7 +7,7 @@
     <!-- Header -->
     {{ partial "header.html" . }}
     <!-- Pages -->
-    {{ range $.Site.RegularPages }}
+    {{ range $.Site.RegularPages.ByParam "index" }}
         {{ partial "section.html" . }}
     {{ end }}
     <!-- Footer -->
