@@ -3,8 +3,8 @@ license = "MIT"
 licenselink = "https://github.com/setu4993/hugo-overflow-identity/blob/main/LICENSE"
 description = "A mashup of two HTML5UP themes that I use for my personal website, migrated to a Hugo theme."
 homepage = "https://github.com/setu4993/hugo-overflow-identity"
-tags = ["personal", "portfolio", "minimal"]
-features = []
+tags = ["personal", "portfolio", "minimal", "single", "responsive", "html5up"]
+features = ["responsive", "customizable"]
 min_version = "0.41.0"
 
 [author]
