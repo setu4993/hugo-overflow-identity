@@ -1,0 +1,48 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = "Yosemite National Park"
+themesDir = "../.."
+theme = "hugo-overflow-identity"
+
+[params]
+    authorName = 'Setu Shah'
+    description = "A demo page for the Hugo Overflow Identity theme."
+    favicon = "images/favicon.png"
+
+    [params.header]
+        title = "Yosemite National Park"
+        description = "Half Dome"
+        avatar = "images/avatar.jp2"
+
+    [params.footer]
+        copyright = "Setu Shah"
+
+    [[params.footer.social]]
+        link = "mailto:email@domain.com"
+        icon = "fa-envelope-o"
+        name = "Email"
+
+    # [[params.footer.social]]
+    #     link="https://www.github.com/"
+    #     icon="fa-github"
+    #     name="GitHub"
+
+    [[params.footer.social]]
+        link="https://twitter.com/"
+        icon="fa-twitter"
+        name="Twitter"
+
+    # [[params.footer.social]]
+    #     link="https://www.linkedin.com/"
+    #     icon="fa-linkedin"
+    #     name="LinkedIn"
+
+    # [[params.footer.social]]
+    #     link="https://facebook.com/"
+    #     icon="fa-facebook"
+    #     name="Facebook"
+
+    # [[params.footer.social]]
+    #     link="https://instagram.com/"
+    #     icon="fa-instagram"
+    #     name="Instagram"
