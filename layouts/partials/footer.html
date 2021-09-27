@@ -1,26 +1,31 @@
 <section id="footer">
-    <!-- Social -->
-    <a name="social"></a>
-    <ul class="icons">
+  <!-- Social -->
+  <a name="social"></a>
+  <ul class="icons">
     {{ range $.Site.Params.footer.social }}
     <li>
-        <a
+      <a
         href="{{ with .link  }}{{ . }}{{ end }}"
         class="{{ with .icon  }}icon {{ . }} {{ end }}"
         target="_blank"
-        ><span class="label">{{ with .name  }}{{ . }}{{ end }}</span></a
-        >
+        ><span class="label">{{ with .name }}{{ . }}{{ end }}</span></a
+      >
     </li>
     {{ end }}
-
-    </ul>
-    <div class="copyright">
+  </ul>
+  <div class="copyright">
     <ul class="menu">
-        <li>&copy; {{ with .Site.Params.footer.copyright }}{{ . }}. {{ end }}All rights reserved.</li><li>Design Inspiration:
+      <li>
+        &copy; {{ with .Site.Params.footer.copyright }}{{ . }}. {{ end }}All
+        rights reserved.
+      </li>
+      <li>
+        Design Inspiration:
         <a href="https://html5up.net/overflow" target="_blank">Overflow</a>
         and
         <a href="https://html5up.net/identity" target="_blank">Identity</a>
-        from <a href="https://html5up.net">HTML5 UP</a>.</li>
+        from <a href="https://html5up.net">HTML5 UP</a>.
+      </li>
     </ul>
-    </div>
+  </div>
 </section>
