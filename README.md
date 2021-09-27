@@ -14,6 +14,8 @@ The site is configured in 2 parts. Take a look at the file under `exampleSite` f
 
 The base configuration of the site, header and the footer are set in `config.toml`.
 
+Footer uses [Font Awesome icons](https://fontawesome.com/) for the social profiles. Find the relevant icon code on the [FontAwesome gallery](https://fontawesome.com/v5.15/icons?d=gallery&p=1&m=free).
+
 ### Content
 
 The content is configured in _sections_ that are expected to reside as markdown files in the `content` directory.
