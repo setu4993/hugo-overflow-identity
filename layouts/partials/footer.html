@@ -8,6 +8,7 @@
         href="{{ with .link  }}{{ . }}{{ end }}"
         class="{{ with .icon  }}icon {{ . }}{{ end }}"
         target="_blank"
+        href="{{ with .rel  }}{{ . }}{{ end }}"
         ><span class="label">{{ with .name }}{{ . }}{{ end }}</span></a
       >
     </li>
