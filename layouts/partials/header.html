@@ -1,15 +1,16 @@
 <article class="container">
   <section class="header">
-    <a name="header"></a>
-    <img
-      src="{{ .Site.Params.header.avatar | absURL }}"
-      alt="{{ .Params.header.title }}"
-      class="avatar"
-      id="next"
-    />
-    <header>
-      <h1>{{ .Site.Params.header.title }}</h1>
-      <p>{{ .Site.Params.header.description }}</p>
-    </header>
+    <div id="header">
+      <img
+        src="{{ .Site.Params.header.avatar | absURL }}"
+        alt="{{ .Params.header.title }}"
+        class="avatar"
+        id="next"
+      />
+      <header>
+        <h1>{{ .Site.Params.header.title }}</h1>
+        <p>{{ .Site.Params.header.description }}</p>
+      </header>
+    </div>
   </section>
 </article>

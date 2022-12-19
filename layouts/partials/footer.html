@@ -1,19 +1,21 @@
 <section id="footer">
   <!-- Social -->
-  <a name="social"></a>
-  <ul class="icons">
-    {{ range $.Site.Params.footer.social }}
-    <li>
-      <a
-        href="{{ with .link  }}{{ . }}{{ end }}"
-        class="{{ with .icon  }}icon {{ . }}{{ end }}"
-        target="_blank"
-        href="{{ with .rel  }}{{ . }}{{ end }}"
-        ><span class="label">{{ with .name }}{{ . }}{{ end }}</span></a
-      >
-    </li>
-    {{ end }}
-  </ul>
+  <div id="social">
+    <ul class="icons">
+      {{ range $.Site.Params.footer.social }}
+      <li>
+        <a
+          href="{{ with .link  }}{{ . }}{{ end }}"
+          class="{{ with .icon  }}icon {{ . }}{{ end }}"
+          target="_blank"
+          href="{{ with .rel  }}{{ . }}{{ end }}"
+          ><span class="label">{{ with .name }}{{ . }}{{ end }}</span></a
+        >
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+
   <div class="copyright">
     <ul class="menu">
       <li>
