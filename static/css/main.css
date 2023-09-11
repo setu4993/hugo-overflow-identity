@@ -663,7 +663,8 @@ ol li {
 }
 
 .box.style3 {
-  background: #fff;
+  background: #000;
+  color: #fff;
   padding: 3em;
 }
 
