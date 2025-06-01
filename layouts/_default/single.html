@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+  <body>
+    <!-- Header -->
+    {{ partial "header.html" . }}
+
+    <!-- Main Content -->
+    <article class="container box style">
+      <div id="{{ .Params.anchor }}">
+        <header>
+          <h2>{{ .Page.Title }}</h2>
+          <p>{{ with .Params.subheading }} {{ . }} {{ end }}</p>
+        </header>
+
+        {{ .Page.Content }}
+      </div>
+    </article>
+
+    <!-- Footer -->
+    {{ partial "footer.html" . }}
+  </body>
+</html>
