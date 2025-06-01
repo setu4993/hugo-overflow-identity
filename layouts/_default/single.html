@@ -9,14 +9,12 @@
 
     <!-- Main Content -->
     <article class="container box style">
-      <div id="{{ .Params.anchor }}">
-        <header>
-          <h2>{{ .Page.Title }}</h2>
-          <p>{{ with .Params.subheading }} {{ . }} {{ end }}</p>
-        </header>
+      <header>
+        <h2>{{ .Page.Title }}</h2>
+        <p>{{ with .Params.subheading }} {{ . }} {{ end }}</p>
+      </header>
 
-        {{ .Page.Content }}
-      </div>
+      {{ .Page.Content }}
     </article>
 
     <!-- Footer -->
