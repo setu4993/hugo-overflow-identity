@@ -1,6 +1,7 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = "Yosemite National Park"
+themesDir = "../.."
 theme = "hugo-overflow-identity"
 
 [params]
