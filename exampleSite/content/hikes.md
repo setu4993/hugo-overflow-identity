@@ -1,8 +1,6 @@
 ---
 title: "Hikes"
-anchor: "hikes"
 subheading: "Some of my favorite hikes in Yosemite."
-index: 2
 ---
 
 1. Vernal Fall and Nevada Fall Trails

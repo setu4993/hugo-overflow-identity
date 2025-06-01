@@ -5,44 +5,43 @@ themesDir = "../.."
 theme = "hugo-overflow-identity"
 
 [params]
-    authorName = 'Setu Shah'
-    description = "A demo page for the Hugo Overflow Identity theme."
-    favicon = "images/favicon.png"
+authorName = 'Setu Shah'
+description = "A demo page for the Hugo Overflow Identity theme."
+favicon = "images/favicon.png"
 
-    [params.header]
-        title = "Yosemite National Park"
-        description = "Half Dome"
-        avatar = "images/avatar.jp2"
+[params.header]
+title = "Yosemite National Park"
+description = "Half Dome"
 
-    [params.footer]
-        copyright = "Setu Shah"
+[params.footer]
+copyright = "Setu Shah"
 
-    [[params.footer.social]]
-        link = "mailto:email@domain.com"
-        icon = "far fa-envelope"
-        name = "Email"
+[[params.footer.social]]
+link = "mailto:email@domain.com"
+icon = "far fa-envelope"
+name = "Email"
 
-    [[params.footer.social]]
-        link="https://www.github.com/"
-        icon="fab fa-github"
-        name="GitHub"
+[[params.footer.social]]
+link = "https://www.github.com/"
+icon = "fab fa-github"
+name = "GitHub"
 
-    [[params.footer.social]]
-        link="https://twitter.com/"
-        icon="fab fa-twitter"
-        name="Twitter"
+[[params.footer.social]]
+link = "https://twitter.com/"
+icon = "fab fa-twitter"
+name = "Twitter"
 
-    [[params.footer.social]]
-        link="https://www.linkedin.com/"
-        icon="fab fa-linkedin"
-        name="LinkedIn"
+[[params.footer.social]]
+link = "https://www.linkedin.com/"
+icon = "fab fa-linkedin"
+name = "LinkedIn"
 
-    [[params.footer.social]]
-        link="https://facebook.com/"
-        icon="fab fa-facebook"
-        name="Facebook"
+[[params.footer.social]]
+link = "https://facebook.com/"
+icon = "fab fa-facebook"
+name = "Facebook"
 
-    [[params.footer.social]]
-        link="https://instagram.com/"
-        icon="fab fa-instagram"
-        name="Instagram"
+[[params.footer.social]]
+link = "https://instagram.com/"
+icon = "fab fa-instagram"
+name = "Instagram"
