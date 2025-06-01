@@ -9,9 +9,6 @@ authorName = 'Setu Shah'
 description = "A demo page for the Hugo Overflow Identity theme."
 favicon = "images/favicon.png"
 
-[params.header]
-title = "Yosemite National Park"
-description = "Half Dome"
 
 [params.footer]
 copyrightOwner = "Setu Shah"
