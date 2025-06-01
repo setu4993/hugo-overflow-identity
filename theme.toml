@@ -5,13 +5,13 @@ description = "A mashup of two HTML5UP themes that I use for my personal website
 homepage = "https://github.com/setu4993/hugo-overflow-identity"
 tags = ["personal", "portfolio", "minimal", "single", "responsive", "html5up"]
 features = ["responsive", "customizable"]
-min_version = "0.41.0"
+min_version = "0.100.0"
 
 [author]
-  name = "Setu Shah"
-  homepage = "https://setu.me"
+name = "Setu Shah"
+homepage = "https://setu.me"
 
 [original]
-  name = "Overflow Identity"
-  homepage = "https://github.com/setu4993/overflow-identity"
-  repo = "https://github.com/setu4993/overflow-identity"
+name = "Overflow Identity"
+homepage = "https://github.com/setu4993/hugo-overflow-identity"
+repo = "https://github.com/setu4993/hugo-overflow-identity"
