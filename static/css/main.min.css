@@ -381,15 +381,15 @@ img.avatar {
   color: #161616;
   text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
   text-align: center;
-  margin: 4.5em 0 0 0;
+  margin: 3em 0 0 0;
 }
 #footer:after {
   content: "";
   display: block;
   position: absolute;
-  top: -4.5em;
+  top: -3em;
   left: 50%;
-  height: 4.5em;
+  height: 3em;
   border-left: solid 1px #161616;
 }
 #footer a {
