@@ -307,15 +307,6 @@ ol li {
   margin-top: 9em;
   margin-bottom: 0;
 }
-.box:after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: -9em;
-  left: 50%;
-  height: 9em;
-  border-left: solid 1px #161616;
-}
 .box :last-child {
   margin-bottom: 0;
 }
