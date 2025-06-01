@@ -316,18 +316,6 @@ ol li {
   height: 9em;
   border-left: solid 1px #161616;
 }
-.box:before {
-  content: "";
-  display: block;
-  width: 90px;
-  height: 66px;
-  position: absolute;
-  left: 50%;
-  top: -4.5em;
-  margin-left: -45px;
-  margin-top: -33px;
-  background: url(https://setu.me/images/arrow.svg) no-repeat;
-}
 .box :last-child {
   margin-bottom: 0;
 }
