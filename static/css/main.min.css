@@ -3,6 +3,29 @@
 @import url("../fontawesome/css/regular.min.css");
 @import url("../fontawesome/css/solid.min.css");
 
+/* Modern CSS Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base Container Styles */
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  width: 1140px;
+}
+
+/* Container Width Classes */
+.container.\31 25\25 { width: 100%; max-width: 0.95vw; min-width: 0.75vw; }
+.container.\37 5\25 { width: 855px; }
+.container.\35 0\25 { width: 570px; }
+.container.\32 5\25 { width: 285px; }
+
 a,
 article,
 b,
@@ -61,28 +84,6 @@ body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 20px;
-}
-.container.\31 25\25 {
-  width: 100%;
-  max-width: 0.95vw;
-  min-width: 0.75vw;
-}
-.container.\37 5\25 {
-  width: 855px;
-}
-.container.\35 0\25 {
-  width: 570px;
-}
-.container.\32 5\25 {
-  width: 285px;
-}
-.container {
-  width: 1140px;
-}
 @media screen and (max-width: 1680px) {
   .container.\31 25\25 {
     width: 100%;
@@ -103,25 +104,6 @@ body {
   }
 }
 @media screen and (max-width: 1080px) {
-  .container.\31 25\25 {
-    width: 100%;
-    max-width: 118.75%;
-    min-width: 95%;
-  }
-  .container.\37 5\25 {
-    width: 71.25%;
-  }
-  .container.\35 0\25 {
-    width: 47.5%;
-  }
-  .container.\32 5\25 {
-    width: 23.75%;
-  }
-  .container {
-    width: 95%;
-  }
-}
-@media screen and (max-width: 840px) {
   .container.\31 25\25 {
     width: 100%;
     max-width: 118.75%;
@@ -271,9 +253,6 @@ i {
   font-style: italic;
 }
 a {
-  -moz-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
-  -webkit-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
-  -ms-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
   transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
   color: #35b88f;
   text-shadow: 0 0 0.5px rgba(53, 184, 143, 0.25);
@@ -295,6 +274,11 @@ header p {
   display: block;
   margin: 0.5em 0 0 0;
   padding: 0 0 1.5em 0;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 footer {
   margin-top: 1em;
@@ -514,11 +498,11 @@ img.avatar {
   text-shadow: 0 0 0.5px rgba(53, 184, 143, 0.25);
   opacity: 1;
 }
+input[type="checkbox"].mobile-menu-toggle {
+  display: none !important;
+}
 
 @media (max-width: 768px) {
-  input[type="checkbox"].mobile-menu-toggle {
-    display: none !important;
-  }
   .main-nav .container {
     display: flex;
     justify-content: space-between;
@@ -557,7 +541,7 @@ img.avatar {
   }
   .nav-items a {
     font-size: 2em;
-    color: #35b88f;
+    color: #fffbfb;
     opacity: 1;
     border-bottom: none;
     text-shadow: none;
