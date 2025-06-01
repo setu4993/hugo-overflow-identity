@@ -6,10 +6,8 @@
   <body>
     <!-- Header -->
     {{ partial "header.html" . }}
-    <!-- Pages -->
-    {{ with (index ($.Site.RegularPages.ByParam "index") 0) }}
-      {{ partial "page.html" . }}
-    {{ end }}
+    <!-- Main Content -->
+    {{ partial "page.html" . }}
     <!-- Footer -->
     {{ partial "footer.html" . }}
   </body>
