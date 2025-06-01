@@ -19,16 +19,13 @@
   <div class="copyright">
     <ul class="menu">
       <li>
-        &copy; {{ with .Site.Params.footer.copyright }}{{ . }}. {{ end }}All
-        rights reserved.
+        &copy; {{ with .Site.Params.footer.copyrightOwner }}{{ . }}{{ end }}
       </li>
-      <li>
-        Design Inspiration:
-        <a href="https://html5up.net/overflow" target="_blank">Overflow</a>
-        and
-        <a href="https://html5up.net/identity" target="_blank">Identity</a>
-        from <a href="https://html5up.net">HTML5 UP</a>.
-      </li>
+      <li
+        >{{ with .Site.Params.footer.copyrightStartYear }}{{ . }} - {{ end }}{{
+        now.Format "2006" }}</li
+      >
+      <li>All rights reserved.</li>
     </ul>
   </div>
 </section>

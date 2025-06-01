@@ -14,7 +14,8 @@ title = "Yosemite National Park"
 description = "Half Dome"
 
 [params.footer]
-copyright = "Setu Shah"
+copyrightOwner = "Setu Shah"
+copyrightStartYear = "2020"
 
 [[params.footer.social]]
 link = "mailto:email@domain.com"
