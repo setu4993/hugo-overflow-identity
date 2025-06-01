@@ -140,28 +140,89 @@ body {
   }
 }
 @media screen and (max-width: 736px) {
-  .container.\31 25\25 {
-    width: 100%;
-    max-width: 118.75%;
-    min-width: 95%;
+  * {
+    text-shadow: none !important;
   }
-  .container.\37 5\25 {
-    width: 71.25%;
+  body {
+    line-height: 1.5em;
+    font-size: 12pt;
+    letter-spacing: 0;
   }
-  .container.\35 0\25 {
-    width: 47.5%;
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 1em;
   }
-  .container.\32 5\25 {
-    width: 23.75%;
+  h2 {
+    font-size: 1.25em;
+    letter-spacing: 4px;
+  }
+  ul li {
+    padding-left: 0.5em;
+  }
+  ul.icons a {
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+  }
+  ul.menu li {
+    display: block;
+    padding: 0;
+    border: 0;
+    margin: 1em 0 0 0;
+  }
+  ul.menu li:first-child {
+    margin-top: 0;
+  }
+  ol li {
+    padding-left: 0.25em;
+  }
+  .box.style {
+    padding: 1.5em 1em;
+  }
+  .header {
+    margin-top: 1em;
+    padding: 1.5em 1em;
+  }
+  .header header h1 {
+    font-size: 1.5em;
+    letter-spacing: 4px;
+  }
+  .header header p {
+    font-size: 0.9em;
+    letter-spacing: 2px;
+  }
+  .main-nav {
+    padding: 0.5em 0;
+    margin-bottom: 1em;
+  }
+  .nav-title h1 {
+    font-size: 1.2em;
+    letter-spacing: 2px;
+  }
+  .nav-items {
+    display: none;
   }
   .container {
-    width: 95% !important;
+    width: 100% !important;
+    padding: 0 1em;
+  }
+  #footer {
+    margin: 2em 0 0 0;
+  }
+  #footer .icons {
+    padding: 0.5em 1em;
+  }
+  #footer .copyright {
+    font-size: 0.9em;
+    margin: 0 0 2em 0;
   }
 }
 body {
   background-color: #183026;
-  background-image: url(https://setu.me/images/overlay.png),
-    url(https://setu.me/images/bg.webp);
+  background-image: url(../images/overlay.png), url(../images/bg.webp);
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
   background-position: top left, center 0;
@@ -304,14 +365,15 @@ ol li {
 }
 .box {
   position: relative;
-  margin-top: 9em;
-  margin-bottom: 0;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 .box :last-child {
   margin-bottom: 0;
 }
 .box.style {
-  background: #161616;
+  /* 80% opacity using 8-digit hex (#161616CC) on top of the color #161616. */
+  background: #161616CC;
   padding: 3em;
 }
 .box.style header {
@@ -383,15 +445,6 @@ img.avatar {
   text-align: center;
   margin: 3em 0 0 0;
 }
-#footer:after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: -3em;
-  left: 50%;
-  height: 3em;
-  border-left: solid 1px #161616;
-}
 #footer a {
   color: #161616;
   text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
@@ -404,13 +457,11 @@ img.avatar {
 }
 #footer .icons {
   padding: 0.75em 2em 0.75em 2em;
-  border-radius: 3em;
-  border: solid 1px #161616;
   display: inline-block;
-  margin: 0 0 3em 0;
+  margin: 0 0 0.5em 0;
 }
 #footer .copyright {
-  margin: 0 0 9em 0;
+  margin: 0 0 1em 0;
   font-size: 0.8em;
 }
 
@@ -475,8 +526,7 @@ img.avatar {
 @media screen and (max-width: 840px) {
   body {
     background-color: #203936;
-    background-image: url(https://setu.me/images/overlay.png),
-      url(https://setu.me/images/bg-alt.webp);
+    background-image: url(../images/overlay.png), url(../images/bg-alt.webp);
     background-repeat: repeat, no-repeat;
     background-size: auto, 100% auto;
     background-position: top left, top center;
@@ -545,57 +595,44 @@ img.avatar {
   ol li {
     padding-left: 0.25em;
   }
-  .box {
-    margin-top: 4.5em;
-  }
-  .box:after {
-    top: -4.5em;
-    height: 4.5em;
-  }
-  .box:before {
-    width: 45px;
-    height: 33px;
-    top: -2.25em;
-    margin-left: -22.5px;
-    margin-top: -16.5px;
-    background-size: 45px 33px;
-  }
   .box.style {
-    padding: 2em 1.25em 2em 1.25em;
+    padding: 1.5em 1em;
   }
-  #header {
-    padding: 3em 0 3em 0;
+  .header {
+    margin-top: 1em;
+    padding: 1.5em 1em;
   }
-  #header header {
-    padding-left: 2em;
-    padding-right: 2em;
+  .header header h1 {
+    font-size: 1.5em;
+    letter-spacing: 4px;
   }
-  #header header h1 {
-    font-size: 1.75em;
-    letter-spacing: 6px;
+  .header header p {
+    font-size: 0.9em;
+    letter-spacing: 2px;
   }
-  #header footer {
-    bottom: 0;
-    padding: 0;
+  .main-nav {
+    padding: 0.5em 0;
+    margin-bottom: 1em;
   }
-  #header header:after {
-    bottom: -4.5em;
-    left: 50%;
-    height: 4.5em;
+  .nav-title h1 {
+    font-size: 1.2em;
+    letter-spacing: 2px;
   }
-  #header header:before {
-    width: 45px;
-    height: 33px;
-    bottom: -2.25em;
-    margin-left: -22.5px;
-    margin-bottom: -16.5px;
-    background-size: 45px 33px;
+  .nav-items {
+    display: none;
+  }
+  .container {
+    width: 100% !important;
+    padding: 0 1em;
+  }
+  #footer {
+    margin: 2em 0 0 0;
   }
   #footer .icons {
-    padding: 0.5em 1.25em 0.5em 1.25em;
+    padding: 0.5em 1em;
   }
   #footer .copyright {
-    font-size: 1em;
-    margin: 0 0 4em 0;
+    font-size: 0.9em;
+    margin: 0 0 2em 0;
   }
 }
