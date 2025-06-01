@@ -1,16 +1,33 @@
-<article class="container">
-  <section class="header">
-    <div id="header">
-      <img
-        src="{{ .Site.Params.header.avatar | absURL }}"
-        alt="{{ .Params.header.title }}"
-        class="avatar"
-        id="next"
-      />
-      <header>
-        <h1>{{ .Site.Params.header.title }}</h1>
-        <p>{{ .Site.Params.header.description }}</p>
-      </header>
+<nav class="main-nav">
+  <div class="container">
+    <div class="nav-title">
+      <h1>{{ .Site.Params.header.title }}</h1>
     </div>
-  </section>
-</article>
+    <ul class="nav-items">
+      <li>
+        <a href="{{ .Site.BaseURL }}" {{ if .IsHome }}class="active" {{ end }}>
+          {{ .Site.Home.Title | default "Home" }}
+        </a>
+      </li>
+      {{ $pages := .Site.RegularPages.ByParam "index" }} {{ range $i, $p :=
+      $pages }}
+      <li>
+        <a
+          href="{{ $p.Permalink }}"
+          {{
+          if
+          eq
+          $.Permalink
+          $p.Permalink
+          }}class="active"
+          {{
+          end
+          }}
+        >
+          {{ $p.Title }}
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</nav>
