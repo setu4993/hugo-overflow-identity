@@ -7,8 +7,6 @@ theme = "hugo-overflow-identity"
 [params]
 authorName = 'Setu Shah'
 description = "A demo page for the Hugo Overflow Identity theme."
-favicon = "images/favicon.png"
-
 
 [params.footer]
 copyrightOwner = "Setu Shah"
