@@ -8,9 +8,9 @@ theme = "hugo-overflow-identity"
 authorName = 'Setu Shah'
 description = "A demo page for the Hugo Overflow Identity theme."
 
-[params.footer]
-copyrightOwner = "Setu Shah"
-copyrightStartYear = "2020"
+[params.footer.copyright]
+owner = "Setu Shah"
+start = "2020"
 
 [[params.footer.social]]
 link = "mailto:email@domain.com"

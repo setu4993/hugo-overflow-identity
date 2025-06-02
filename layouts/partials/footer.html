@@ -19,10 +19,10 @@
   <div class="copyright">
     <ul class="menu">
       <li>
-        &copy; {{ with .Site.Params.footer.copyrightOwner }}{{ . }}{{ end }}
+        &copy; {{ with .Site.Params.footer.copyright.owner }}{{ . }}{{ end }}
       </li>
       <li>
-        &nbsp;{{ with .Site.Params.footer.copyrightStartYear }}{{ . }} - {{ end
+        &nbsp;{{ with .Site.Params.footer.copyright.start }}{{ . }} - {{ end
         }}{{ now.Format "2006" }}</li
       >
       <li>&nbsp;All rights reserved.</li>
