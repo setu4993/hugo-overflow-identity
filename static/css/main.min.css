@@ -202,6 +202,9 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 9em;
+  height: 9em;
+  border-radius: 4px;
 }
 footer {
   margin-top: 1em;
@@ -332,15 +335,6 @@ ol li {
   display: block;
   border-top: solid 1px rgba(58, 57, 57, 0.25);
   margin: 4px 0 0.8em 0;
-}
-img.avatar {
-  position: relative;
-  display: block;
-  margin: 2em auto;
-  width: 9em;
-  height: 9em;
-  border-radius: 4px;
-  box-shadow: 0 0 0 0.5em rgba(58, 57, 57, 0.25);
 }
 #footer {
   position: relative;
